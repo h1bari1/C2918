@@ -29,7 +29,7 @@ class Display:
 
 class SmartPhone(Display, Computer):
     def print_info(self):
-        super().test()
+        super().test()   
         print(self.resolution)
         print(self.memory)
 
